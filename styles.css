@@ -1,0 +1,85 @@
+body {
+  color: white;
+  background: #ddd;
+  background-image: url(https://miro.medium.com/max/1400/0*gsKPg6EE_OmBm84X);
+  height: 100%;
+  width: 100%;
+  margin: 1rem; 
+  padding: 1rem; 
+  max-width: 500px; 
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+.check-boxes {
+	margin-right: 2em;
+	flex-direction: row;
+    align-items: center;
+	justify-content: space-around;
+    box-sizing: border-box;
+  }
+
+.check-boxes-box {
+    width: 50%;
+    /* border: 10px solid #ccc;
+    background-color: white; */
+    padding: 10px;
+    box-sizing: border-box ;
+    margin: px auto; 
+    /* box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25); */
+  }
+
+.image-spacing {
+	margin: 50;
+	padding: 10px;
+
+}
+
+.aBtn {
+	background-color: rgba(147, 16, 144, 0.734);
+	width: 250px;
+	height: 35px;
+	margin-block: 15px;
+}
+
+.aboutMe-1 {
+		background-color: rgba(73, 67, 73, 0.734);
+		width: 250px;
+		height: 350px;
+
+}
+.aboutMe-2 {
+	background-color: rgba(73, 67, 73, 0.734);
+	width: 500px;
+	height: 150px;
+
+}
